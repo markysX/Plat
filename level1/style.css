@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+
+
+body{
+    font-family: 'VT323', monospace;
+    background: url(../1_500-1.webp) no-repeat;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+
+.plat{
+    width:300px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 610px;
+    left: 200px;
+    border-radius: 0 0 20px 20px;
+}
+
+.block-range {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.circle{
+    position: absolute;
+ width: 20px;
+ height: 20px;
+ background: #ffffff;
+ border-radius: 100%;
+}
+
+.score{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    color: white;
+    font-size: 40px;
+}
